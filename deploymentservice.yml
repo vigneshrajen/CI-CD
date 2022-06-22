@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: vigneshrajen/jenkins:latest
+        image: public.ecr.aws/v6r3s0v8/vignesh:1.0.0
         ports:
         - containerPort: 3000
         
